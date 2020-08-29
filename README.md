@@ -5,7 +5,7 @@
 - No terminal PowerShell execute os seguintes comandos:
 > Get-ExecutionPolicy
 
- 
+
 > Set-ExecutionPolicy Bypass -Scope Process -Force
 
 
@@ -51,10 +51,27 @@ e utilize a opção [A], ou
 
 - Ainda nessa mesma tela, você deverá personalizar a opção na parte inferior chamada **Android SDK Location**, nela coloque um caminho personalizado, que não possua caracteres especiais. *Sugestão* utilize o caminho: "C:\Android". Você deverá também **copiar** esta localização para que a utilizemos mais tarde.
 
+### Sexto Passo: Configurações do Sistema
+- No menu do Windos busque por:
+> Configurações Avançadas do Sistema
+- Na tela que for apresentada, na própria aba Avançado, clique na opção "Variáveis de Ambiente...".
+- Em Variáveis de Ambiente haverá Variáveis de Usuário e Variáveis do Sistema. Iremos optar por por **Variáveis do Sistema** e nela clicaremos em **Novo**.
+- Será aberto uma pequena janela com o título Nova Variável do Sistema, nela iremos preencher:
+"Nome da variavél" com o valor:
+> ANDROID_HOME
+"Valor da Variável" com o valor copiado anteriormente (*Android SDK Location*):
+> C:\Android
+- Dê OK, e você voltará para a tela de Variáveis do Sistema, agora você deverá encontrar a variavel PATH dentro das Variáveis do Sistema, ao acha-la, clique duas vezes sobre ela.
+- Dentro da edição da variável de ambiente iremos adicionar uma nova variável, para isso clique em **NOVO**.
+- Adicione então o valor que você copiou mais o prefixo "\platform-tools", como o exemplo abaixo e então clique em OK.
+> C:\Android\platform-tools
 
+### Setimo Passo: Concluindo a Instalação
+- Abra novamente o PowerShell como administrador e execute o segundo comando:
+> adb
+- Do comando acima, será retornado no PowerShell o Andorid Debug Bridge Version.
+- Por fim, iremos então executar a instalação do Cli nativo do react. Para isso execute:
+> npm install -g react-native-cli
+- Feito isso, concluímos a instalação do ambiente e cli.
 
-
-
-
-
-
+###### by: urnauzao
