@@ -57,10 +57,13 @@ e utilize a opção [A], ou
 - Na tela que for apresentada, na própria aba Avançado, clique na opção "Variáveis de Ambiente...".
 - Em Variáveis de Ambiente haverá Variáveis de Usuário e Variáveis do Sistema. Iremos optar por por **Variáveis do Sistema** e nela clicaremos em **Novo**.
 - Será aberto uma pequena janela com o título Nova Variável do Sistema, nela iremos preencher:
+
 "Nome da variavél" com o valor:
 > ANDROID_HOME
+
 "Valor da Variável" com o valor copiado anteriormente (*Android SDK Location*):
 > C:\Android
+
 - Dê OK, e você voltará para a tela de Variáveis do Sistema, agora você deverá encontrar a variavel PATH dentro das Variáveis do Sistema, ao acha-la, clique duas vezes sobre ela.
 - Dentro da edição da variável de ambiente iremos adicionar uma nova variável, para isso clique em **NOVO**.
 - Adicione então o valor que você copiou mais o prefixo "\platform-tools", como o exemplo abaixo e então clique em OK.
