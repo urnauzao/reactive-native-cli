@@ -32,7 +32,7 @@ e utilize a opção [A], ou
 > choco install -y jdk8
 
 ### Quinto Passo: Instalação do Android Studio
-- Para fazer o download do Android Studio (Clique Aqui)[https://developer.android.com/studio/index.html]
+- Para fazer o download do `Android Studio` (Clique Aqui)[https://developer.android.com/studio/index.html]
 - Após terminado o download, inicie a instalação e se atente ao se deparar com a tela **Tipo de Instalação** ou **Install Type** que será dado como opção durante a instalação. Nesta tela você terá duas opções: a 'Padrão ou Standard' e a opção 'Custom ou Customizada', nela você deverá optar por **Custom**.
 - Em Custom você deverá garantir que as seguintes opções estejam selecionadas:
 > [x] Android SDK
@@ -52,7 +52,7 @@ e utilize a opção [A], ou
 - Ainda nessa mesma tela, você deverá personalizar a opção na parte inferior chamada **Android SDK Location**, nela coloque um caminho personalizado, que não possua caracteres especiais. *Sugestão* utilize o caminho: "C:\Android". Você deverá também **copiar** esta localização para que a utilizemos mais tarde.
 
 ### Sexto Passo: Configurações do Sistema
-- No menu do Windos busque por:
+- No menu do `Windows` busque por:
 > Configurações Avançadas do Sistema
 - Na tela que for apresentada, na própria aba Avançado, clique na opção "Variáveis de Ambiente...".
 - Em Variáveis de Ambiente haverá Variáveis de Usuário e Variáveis do Sistema. Iremos optar por por **Variáveis do Sistema** e nela clicaremos em **Novo**.
@@ -67,7 +67,7 @@ e utilize a opção [A], ou
 > C:\Android\platform-tools
 
 ### Setimo Passo: Concluindo a Instalação
-- Abra novamente o PowerShell como administrador e execute o segundo comando:
+- Abra novamente o `PowerShell` como administrador e execute o segundo comando:
 > adb
 - Do comando acima, será retornado no PowerShell o Andorid Debug Bridge Version.
 - Por fim, iremos então executar a instalação do Cli nativo do react. Para isso execute:
