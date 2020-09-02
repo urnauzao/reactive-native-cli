@@ -61,6 +61,8 @@ e utilize a opção [A], ou
 "Nome da variavél" com o valor:
 > ANDROID_HOME
 
+*Caso possua caracteres especiais em seu usuário de sistema, recomendo que crie a "Variável do Sistema":* `ANDROID_AVD_HOME` *.E em seu valor cole o mesmo valor aplicado anteriormente na variavel* `ANDROID_HOME`.
+
 "Valor da Variável" com o valor copiado anteriormente (*Android SDK Location*):
 > C:\Android
 
