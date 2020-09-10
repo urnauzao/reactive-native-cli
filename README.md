@@ -1,4 +1,4 @@
-# Como instalar o Reactive Native Cli no Windows
+# Como instalar o Ambiente para o Reactive Native Cli no Windows
 ### Primeiro Passo: Instalar o Chocolatey!
 - No menu iniciar busque por `Windows PowerShell`, clique então com o botão direito sobre e selecione a opção 'Executar como administrado'.
 - O Windows pedirá consentimento sobre a execução como administrador, então clique em `Sim`.
